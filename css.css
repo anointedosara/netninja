@@ -347,9 +347,13 @@ font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
         transition: 0.8s all ease;
         height: 80vh;
     }
- 
+
     .div72 {
      margin: 125px 0 20px 0;
+ }
+
+ .nav h1 {
+     font-size: 20px;
  }
  
  .div70 {
@@ -3175,6 +3179,11 @@ border-top: 1px solid black;
         width: 150px;
     }
 
+    .img3 {
+        width: 20px;
+        
+    }
+
     .div200 {
         width: 150px;
     }
@@ -3359,12 +3368,6 @@ border-top: 1px solid black;
         outline-offset: 1px;
         cursor: pointer;
         background: #efeeea;
-
-    }
-
-    .div64 div {
-        align-items: center;
-        justify-content: center;
     }
     
     .div64 select:focus {
@@ -3394,29 +3397,91 @@ border-top: 1px solid black;
 }
 
 @media screen and (max-width: 414px) {
-    .div62 {
-        width: 340px;
-        margin: 0;
+    .div60 {
+        background: #efeeea;
+        padding: 60px 30px 80px 30px;
     }
-
+    
     .div61 {
-        display: flex;
-        justify-content: center;
+        max-width: 100%;
+        margin: 0;
         align-items: center;
         flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .div62 {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0;
+        flex-direction: row;
+        margin-bottom: 40px;
+    }
+
+    #lang {
+        width: 100%;
+        margin: 0;
+        text-align: center;
     }
     
     .div62 a {
-        width: 60%;
+        width: 40%;
     }
     
     .div62 a img {
-        width: 60%;
+        width: 100%;
+    }
+    
+    .div63 {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 40px;
     }
 
-    .div64 div {
-        align-items: center;
-        justify-content: center;
+    .div63 a img {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .div64 {
+        width: 100%;
+    }
+    
+    .div64 select {
+        width: 130px;
+        padding: 10px 7px;
+        font-size: 14px;
+        border: 1px solid black;
+        outline-offset: 1px;
+        cursor: pointer;
+        background: #efeeea;
+    }
+    
+    .div64 select:focus {
+        outline: 2px solid rgb(28, 138, 130);
+    }
+    
+    .div64 select:hover {
+        background: rgb(230, 248, 250);
+    }
+    
+    .div64 p {
+        font-size: 11.5px;
+        font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
+        margin-top: 15px;
+    }
+    
+    .div64 a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .div64 a:hover {
+        text-decoration: underline;
     }
 
 }
