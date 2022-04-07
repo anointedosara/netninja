@@ -339,17 +339,24 @@ font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
 
 }
 
+@media screen and (max-width: 768px) {
+    .div76 {
+        width: 550px;
+    }
+
+}
+
 @media screen and (max-width: 414px) {
     .div76 {
         top: -200vh;
         left: 0;
         width: 100vw;
         transition: 0.8s all ease;
-        height: 80vh;
+        height: 100vh;
     }
 
     .div72 {
-     margin: 125px 0 20px 0;
+     margin: 165px 0 20px 0;
  }
 
  .nav h1 {
@@ -358,7 +365,7 @@ font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
  
  .div70 {
      border-bottom: 1px solid gray;
-     height: 70vh;
+     height: 90vh;
      padding: 20px 30px 10px 30px; 
  }
  
