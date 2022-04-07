@@ -1787,7 +1787,7 @@ border-top: 1px solid black;
     }
     
     .div24 img {
-        height: 300px;
+        height: 250px;
     }
     
     .div25 p:first-child {
@@ -1825,7 +1825,9 @@ border-top: 1px solid black;
     }
 
     .div25 {
-        padding: 0 60px 0 20px;
+        padding: 0;
+        width: 100%;
+        margin: 0;
     }
 
     .div25 div {
