@@ -912,15 +912,15 @@ border-top: 1px solid black;
 
   @media screen and (max-width: 414px) {
     .head {
-        font-size: 40px;
+        font-size: 35px;
     }
     
     .white p {
-        font-size: 30px;
+        font-size: 25px;
     }
     
     .up p {
-        font-size: 30px;
+        font-size: 25px;
     }
     
     .white img {
@@ -1017,7 +1017,6 @@ border-top: 1px solid black;
     .disp img {
         width: 100%;
         height: 400px;
-        object-fit: cover;
       }
 
     .disp {
@@ -1030,8 +1029,13 @@ border-top: 1px solid black;
 
     @media screen and (max-width: 767px) {
         .bg {
-            padding: 80px 0px;
+            padding: 80px 30px;
         }
+
+        .disp img {
+            width: 100%;
+            height: 300px;
+          }
       
         .one p {
           font-size: 35px;
@@ -1779,7 +1783,7 @@ border-top: 1px solid black;
 
 @media screen and (max-width: 767px) {
     .div23 {
-        padding: 30px 0px 50px 0px;
+        padding: 30px 30px 50px 30px;
     }
     
     .div24 img {
@@ -1797,7 +1801,7 @@ border-top: 1px solid black;
     }
     
     .div25 {
-        padding: 0 60px;
+        padding: 0 60px 0 20px;
     }
     
     .div25 div {
@@ -1809,11 +1813,19 @@ border-top: 1px solid black;
 
 @media screen and (max-width: 414px) {
     .div25 p:first-child {
-        font-size: 42px;
+        font-size: 30px;
+    }
+
+    .div23 {
+        padding: 30px 30px 50px 30px;
     }
     
     .div25 p {
         font-size: 14px;
+    }
+
+    .div25 {
+        padding: 0 60px 0 20px;
     }
 
     .div25 div {
